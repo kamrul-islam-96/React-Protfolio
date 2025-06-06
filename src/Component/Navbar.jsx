@@ -4,7 +4,9 @@ import '../Styles/index.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            
+            <nav>
+                
+            </nav>
         </div>
     );
 };
