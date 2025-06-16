@@ -7,15 +7,18 @@ const Hero = () => {
             <div className="hero">
                 <div className="left-side">
                         <h1>
-                            Hi, my name is
-
-                            Alex Rahman  
+                            Hi, My name is
+                            <br />
+                            <span>Alex Rahman</span>  
+                            <br />
                             I build modern, scalable web applications.
                         </h1>
 
                         <p>
-                            I'm a passionate Full-Stack Web Developer with 3+ years of experience. I love creating intuitive UI, powerful backend systems, and solving real-world problems with code.
-
+                            I'm a passionate Full-Stack Web Developer with 3+ years of experience.
+                            <br />
+                            I love creating intuitive UI, powerful backend systems, and solving real-world problems with code.
+                            <br />
                             Let's build something great together.
                         </p>
 
@@ -26,9 +29,7 @@ const Hero = () => {
                 </div>
                 <div className="right-side">
                     <div className="image-div">
-                        <div className="img">
-                            
-                        </div>
+                        <img src="/images/dp.jpg" alt="" />
                     </div>
                 </div>
             </div>
