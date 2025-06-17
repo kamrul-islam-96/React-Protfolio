@@ -5,7 +5,12 @@ const Projects = () => {
     return (
         <div className='projects-section'>
             <div className="projects">
-                
+                <div className="project-box"></div>
+                <div className="project-box"></div>
+                <div className="project-box"></div>
+                <div className="project-box"></div>
+                <div className="project-box"></div>
+                <div className="project-box"></div>
             </div>
         </div>
     );
