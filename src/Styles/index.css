@@ -187,7 +187,7 @@ nav {
     height: 100%;
     background-color: orchid;
     margin: 0 auto;
-    padding: 0 32px;
+    /* padding: 0 32px; */
     display: flex;
     align-items: center;
     gap: 120px;
@@ -196,11 +196,53 @@ nav {
 .form-left {
     width: 50%;
     height: 50%;
+    background-color: khaki;
+    padding: 44px 60px;
+}
+
+.form-left h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-left p {
+    text-align: justify;
+    font-size: 18px;
 }
 
 form {
     width: 50%;
-    height: 50%;
+    height: 80%;
+    background-color: olivedrab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box {
+    width: 340px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.text-area {
+    width: 340px;
+    height: 88px;
+    padding: 10px 0 0 10px;
+    outline: none;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.submit {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
 }
 
 /** footer styling **/

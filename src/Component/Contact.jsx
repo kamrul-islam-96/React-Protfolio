@@ -14,10 +14,11 @@ const Contact = () => {
                     </p>
                 </div>
                 <form action="#">
-                    <input type="text" placeholder='Enter Your First Name' /> <br />
-                    <input type="text" placeholder='Enter Your Second Name' /> <br />
-                    <input type="email" placeholder='Enter Your Email' /> <br />
-                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <input className='input-box' type="text" placeholder='Enter Your First Name' /> <br />
+                    <input className='input-box' type="text" placeholder='Enter Your Second Name' /> <br />
+                    <input className='input-box' type="email" placeholder='Enter Your Email' /> <br />
+                    <textarea className='text-area' name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button className='submit'>Submit</button>
                 </form>
             </div>
         </div>
