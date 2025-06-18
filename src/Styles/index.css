@@ -123,7 +123,7 @@ nav {
 /** projects section styling **/
 .projects-section {
     width: 1320px;
-    height: 700px;
+    height: 900px;
     background-color: var(--background-color);
     margin: 0 auto;
 }
@@ -140,7 +140,7 @@ nav {
 
 .project-box {
     width: 400px;
-    height: 330px;
+    height: 400px;
     background-color: firebrick;
     margin: auto;
 }
@@ -148,22 +148,60 @@ nav {
 
 /** about section styling **/
 .about-section {
-    width: 1300px;
+    width: 1320px;
     height: 250px;
-    /* background-color: orangered; */
+    background-color: var(--background-color);
     margin: 0 auto;
 }
 
+.about-me {
+    width: 1300px;
+    height: 100%;
+    background-color: turquoise;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.about-me h1 {
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 22px;
+    margin: 16px 0;
+    text-align: justify;
+    color: var(--text-dark);
+}
 
 
 /** contact section styling **/
 .contact-section {
-    width: 1300px;
-    height: 200px;
-    /* background-color: orchid; */
+    width: 1320px;
+    height: 400px;
+    background-color: var(--background-color);
     margin: 0 auto;
 }
 
+.contact-form {
+    width: 1300px;
+    height: 100%;
+    background-color: orchid;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.form-left {
+    width: 50%;
+    height: 50%;
+}
+
+form {
+    width: 50%;
+    height: 50%;
+}
 
 /** footer styling **/
 .footer {
