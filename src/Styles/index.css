@@ -123,7 +123,7 @@ nav {
 /** projects section styling **/
 .projects-section {
     width: 1320px;
-    height: 900px;
+    height: 920px;
     background-color: var(--background-color);
     margin: 0 auto;
 }
@@ -131,7 +131,6 @@ nav {
 .projects {
     width: 1300px;
     height: 100%;
-    /* background-color: goldenrod; */
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -140,11 +139,16 @@ nav {
 
 .project-box {
     width: 400px;
-    height: 400px;
+    height: 420px;
     background-color: firebrick;
     margin: auto;
 }
 
+.project-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /** about section styling **/
 .about-section {
@@ -181,13 +185,15 @@ nav {
     height: 400px;
     background-color: var(--background-color);
     margin: 0 auto;
+    display: grid;
+    place-items: center;
 }
 
 .contact-form {
     width: 1300px;
     height: 90%;
     background-color: sienna;
-    margin: 32px auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 120px;
@@ -196,24 +202,24 @@ nav {
 .form-left {
     width: 50%;
     height: 50%;
-    /* background-color: khaki; */
-    padding: 44px 60px;
+    padding: 0px 40px;
+    background-color: olive;
 }
 
 .form-left h1 {
-    font-size: 40px;
+    font-size: 52px;
     text-align: center;
+    padding-bottom: 12px;
 }
 
 .form-left p {
-    text-align: justify;
-    font-size: 18px;
+    text-align: center;
+    font-size: 22px;
 }
 
 form {
     width: 50%;
     height: 80%;
-    /* background-color: olivedrab; */
     display: flex;
     flex-direction: column;
     align-items: center;
